@@ -4,6 +4,10 @@ import Navbar from "./Navbar.jsx";
 import sdata from "./Sdata.jsx";
 
 
+
+
+
+
 const App=()=>{
   <>
     <Navbar />
