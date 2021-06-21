@@ -1,9 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Card from "./Card";
 import "./index.css";
-import Navbar from "./Navbar.jsx";
-import sdata from "./Sdata.jsx";
+import App from "./App";
 
 //react dom converts this js in html file ,
 //dom is used to use html in javascript files
@@ -26,19 +24,6 @@ import sdata from "./Sdata.jsx";
 //  }
 
 ReactDOM.render(
-  <>
-    <Navbar />
-    {sdata.map((val) => {
-      return (
-        <Card
-          key={val.id}
-          imgscr={val.imgscr}
-          title={val.title}
-          sname={val.sname}
-          link={val.link}
-        />
-      );
-    })}
-  </>,
+  <App/>,
   document.getElementById("root")
 );

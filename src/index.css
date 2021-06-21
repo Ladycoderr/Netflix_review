@@ -53,7 +53,7 @@ button {
   transform: scale(1.05, 1.05);
 }
 button:hover {
-  font-size: large;
+  transform: scale(1.05, 1.05);
   cursor: pointer;
 }
 nav {
