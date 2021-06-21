@@ -11,6 +11,7 @@ const App= ()=>(
   <>
     <Navbar />
     {sdata.map((val) => {
+      /* {(favSeries==="Netflix")?<Netflix/>:<Amazon/>} */ //Create searchbar later//
       return( <Card
           key={val.id} //needs to be use whenever a map is used //
           imgscr={val.imgscr}
