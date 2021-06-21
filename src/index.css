@@ -13,6 +13,7 @@ body {
   width: 250px;
   margin: 50px 60px;
   margin-left: 110px;
+  box-shadow: 5px 5px 35px 20px rgb(87, 86, 86);
 
   border-radius: 10px;
   display: inline-block;

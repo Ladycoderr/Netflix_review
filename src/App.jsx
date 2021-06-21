@@ -1,19 +1,17 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import Card from "./Card";
+import "./index.css";
 import Navbar from "./Navbar.jsx";
 import sdata from "./Sdata.jsx";
 
 
 
-
-
-
-const App=()=>{
+const App= ()=>(
   <>
     <Navbar />
     {sdata.map((val) => {
-      return (
-        <Card
+      return( <Card
           key={val.id} //needs to be use whenever a map is used //
           imgscr={val.imgscr}
           title={val.title}
@@ -23,5 +21,5 @@ const App=()=>{
       );
     })}
   </>
-};
+)
 export default App;
